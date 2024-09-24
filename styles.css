@@ -1,0 +1,188 @@
+/* General body styling */
+body {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styling */
+  nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and navbar */
+    align-items: center; /* Vertically center the logo and navbar */
+    padding: 0 20px; /* Optional: Add some padding to the sides */
+    
+  }
+  
+  /* Centering the navbar */
+  .navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Ensures the items in the navbar are centered */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 15px; /* Spacing between navbar items */
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: rgb(165, 158, 158);
+    font-size: 16px;
+  }
+  
+  .navbar li a:hover {
+    color: #8b8888; /* Optional: Change color on hover */
+  }
+  
+  /* Logo styling */
+  .logo img {
+    height: 50px; /* Adjust logo height */
+  }
+  
+  /* Mobile responsiveness (optional) */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar li {
+      margin: 10px 0;
+    }
+
+}
+.heading1{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+}
+
+.para{
+    font-size: 24px;
+    padding-top: 0.1;
+}
+  
+.join{
+    width: 50vh;
+    height: 6vh;
+    border-radius: 20px;
+    color: white;
+    box-sizing: border-box;
+    background-color: rgb(30, 167, 44);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.section1{ 
+    padding-top: 15vh;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.guidelogo img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.guidelogo span{
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;;
+}
+.courselogo img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.courselogo span{
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;;
+}
+.whatsapplogo img{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.whatsapplogo span{
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;;
+}
+.sessionlogo img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.sessionlogo span{
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;;
+}
+
+.section2 {
+    padding-top: 15vh;
+    display: flex;
+    margin-left: 13vh;
+    margin-right: 13vh;
+    justify-content: space-between;
+    align-items: center;    
+}
+.logo1{
+    text-align: center;
+    max-width: 380px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.logo1 img{
+    border-radius: 50%; /* Makes the image circular */
+    width: 100px;  /* Adjust width and height as needed */
+    height: 100px;
+    margin-bottom: 20px;
+}
+.logo1 p{
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.logo2{
+    text-align: center;
+    max-width: 380px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.logo2 img{
+    border-radius: 50%; /* Makes the image circular */
+    width: 100px;  /* Adjust width and height as needed */
+    height: 100px;
+    margin-bottom: 20px;
+}
+.logo2 p{
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.logo3 img{
+    width: 100px;;
+    height: 100px;
+    border-radius: 50%;
+}
